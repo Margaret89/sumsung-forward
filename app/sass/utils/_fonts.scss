@@ -1,0 +1,44 @@
+/*-------------- fonts -----------------*/
+@font-face {
+	font-family: 'OfficinaSerif';
+	src: url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBook.eot');
+	src: local('Officina Serif Book'), local('OfficinaSerifBook'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBook.eot?#iefix') format('embedded-opentype'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBook.woff') format('woff'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBook.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OfficinaSerif';
+	src: url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBold.eot');
+	src: local('Officina Serif Bold'), local('OfficinaSerifBold'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBold.eot?#iefix') format('embedded-opentype'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBold.woff') format('woff'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OfficinaSerif';
+	src: url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifItalic.eot');
+	src: local('Officina Serif Italic'), local('OfficinaSerifItalic'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifItalic.eot?#iefix') format('embedded-opentype'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifItalic.woff') format('woff'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'OfficinaSerif';
+	src: url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBoldItalic.eot');
+	src: local('Officina Serif Bold Italic'), local('OfficinaSerifBoldItalic'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBoldItalic.woff') format('woff'),
+		url('#{$path-fonts}/OfficinaSerifC/OfficinaSerifBoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}

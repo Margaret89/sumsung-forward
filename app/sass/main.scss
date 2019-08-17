@@ -1,0 +1,18 @@
+@import 'utils/variables';
+@import 'utils/fonts';
+@import "utils/mixins";
+
+/*-------------- base style -----------------*/
+
+@import 'base/base';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+// /*-------------- Components styles -----------------*/
+@import 'components/about';
+@import 'components/product-slider';
+@import 'components/steps';
+@import 'components/video-frame';
+@import 'components/compare';
+@import 'components/info-block';

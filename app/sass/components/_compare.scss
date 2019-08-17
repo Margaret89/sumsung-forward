@@ -1,0 +1,133 @@
+/*-------------- compare -----------------*/
+.compare{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 87px;
+
+	&__info{
+		width: 33.33%;
+		padding-right: 35px;
+	}
+
+	.compare-params{
+		width: 66.66%;
+	}
+
+	&__head{
+		@include font(normal, normal, 27px, 35px, $color-text);
+		margin-bottom: 25px;
+	}
+
+	&__text{
+		@include font(normal, normal, 17px, 24px, $color-text);
+	}
+}
+
+.compare-params{
+	border: 1px solid #ebe8e3;
+	border-radius: 5px;
+	padding: 35px 15px 40px;
+	margin-top: 10px;
+
+	&__head{
+		padding-left: 215px;
+		margin-bottom: 20px;
+	}
+
+	&__title{
+		@include font(normal, normal, 22px, 24px, $color-text);
+	}
+
+	&__subtitle{
+		@include font(normal, normal, 13px, 18px, $color-grey);
+	}
+
+	&__content{
+		display: table;
+		width: 100%;
+		@include font(normal, normal, 17px, 20px, $color-text);
+	}
+
+	&__row{
+		display: table-row;
+	}
+
+	&__name,
+	&__val{
+		display: table-cell;
+		vertical-align: middle;
+		padding: 8px 10px 7px;
+	}
+
+	&__val--grey{
+		color: rgba(0,0,0,0.6);
+	}
+
+	&__name{
+		width: 205px;
+	}
+}
+
+@media (max-width: 767px) {
+	.compare{
+		display: block;
+		margin-bottom: 25px;
+
+		&__info,
+		.compare-params{
+			width: 100%;
+		}
+
+		&__info{
+			padding-right: 0;
+			margin-bottom: 46px;
+		}
+
+		&__head{
+			font-size: 25px;
+			line-height: 29px;
+			text-align: center;
+			max-width: 300px;
+			margin: 0 auto 40px;
+		}
+
+		&__text{
+			text-align: center;
+			font-size: 15px;
+			line-height: 20px;
+		}
+	}
+
+	.compare-params{
+		padding: 28px 15px 36px;
+
+		&__head{
+			padding-left: 46%;
+			margin-bottom: 15px;
+		}
+
+		&__name{
+			width: 46%;
+		}
+
+		&__title{
+			font-size: 21px;
+			line-height: 22px;
+		}
+
+		&__content{
+			font-size: 15px;
+			line-height: 17px;
+		}
+
+		&__name,
+		&__val{
+			padding: 7px 7px 6px;
+		}
+
+		&__val img{
+			max-height: 16px;
+		}
+	}
+}
