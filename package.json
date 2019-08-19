@@ -10,11 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/Margaret89/sumsung-forward.git"
   },
+  "browserslist": [
+    "last 3 version",
+   ">1%"
+  ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Margaret89/sumsung-forward/issues"
-  },
   "homepage": "https://github.com/Margaret89/sumsung-forward#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
