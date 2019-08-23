@@ -1,4 +1,10 @@
 $(document).ready(function () {
+	$('.js-fancy-img').fancybox({
+		smallBtn: "true",
+		infobar: false,
+		// modal: 
+	});
+
 	$('.js-product-slider').slick({
 		infinite: true,
 		slidesToShow: 3,
@@ -13,15 +19,6 @@ $(document).ready(function () {
 					slidesToShow: 1
 				}
 			},
-			// {
-			//   breakpoint: 480,
-			//   settings: {
-			//     arrows: false,
-			//     centerMode: true,
-			//     centerPadding: '40px',
-			//     slidesToShow: 1
-			//   }
-			// }
 			]
 	});
 });
