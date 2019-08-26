@@ -35,7 +35,7 @@
 	}
 
 	&__text{
-		@include font(normal, normal, 14px, 17px, $color-text);
+		@include font(normal, bold, 15px, 18px, $color-text);
 	}
 
 	&__price{

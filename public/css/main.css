@@ -356,9 +356,9 @@ input[type="submit"].btn--border {
 
 .product-slider__text {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
   color: #000;
 }
 
@@ -651,7 +651,7 @@ input[type="submit"].btn--border {
 .video-frame {
   width: 100%;
   max-width: 590px;
-  height: 335px;
+  height: 332px;
   margin: 0 auto;
 }
 

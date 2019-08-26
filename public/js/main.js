@@ -1,9 +1,8 @@
 $(document).ready(function () {
-	$('.js-fancy-img').fancybox({
-		smallBtn: "true",
-		infobar: false,
-		// modal: 
-	});
+	// $('.js-fancy-img').fancybox({
+	// 	smallBtn: "true",
+	// 	infobar: false,
+	// });
 
 	$('.js-product-slider').slick({
 		infinite: true,
